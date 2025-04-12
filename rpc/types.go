@@ -269,7 +269,7 @@ type InstructionInfoFields struct {
 	Mint        *solana.PublicKey `json:"mint,omitempty"`
 	Owner       *solana.PublicKey `json:"owner,omitempty"`
 	NewAccount  *solana.PublicKey `json:"newAccount,omitempty"`
-
+	Amount      *string           `json:"amount"`
 	// Token transfer
 	TokenAmount *UiTokenAmount `json:"tokenAmount,omitempty"`
 
